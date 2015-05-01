@@ -9,4 +9,6 @@ var express = require('express'),
 app.use('/', express.static(__dirname + '/app'));
 app.use('/article', express.static(__dirname + '/article'));
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Listening on 3000.");
+});

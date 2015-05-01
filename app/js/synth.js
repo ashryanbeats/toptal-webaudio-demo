@@ -37,6 +37,7 @@ angular
         }
 
         function _onmidimessage(e) {
+            console.log(e);
             /**
             * e.data is an array
             * e.data[0] = on (144) / off (128) / detune (224)
