@@ -40,7 +40,7 @@ angular
                         }
 
                         // create the frequency analyser
-                        $scope.analyser = DSP.createAnalyser('#analyser');
+                        //$scope.analyser = DSP.createAnalyser('#analyser');
                     } else {
                         console.error('No devices detected!');
                     }
